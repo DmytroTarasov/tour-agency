@@ -8,12 +8,8 @@ const TestDataGenerator = require("./DataBase/testDataGenerator").TestDataGenera
     Order = require("./Entities/order").Order,
     DataBase = require("./DataBase/dataBase").DataBase;
 
-// const uof = new UnitOfWork(),
-// const generator = new TestDataGenerator(uof);
 const db = new DataBase();
-//     generator = new TestDataGenerator(db);
 
-// generator.generateAll();
 var server = net.createServer();
 
 server.on("connection", socket => {
@@ -31,6 +27,7 @@ server.on("connection", socket => {
             switch (data.action) {
                 case "getAll":
                     result = await db.getAll(data.entity, true, clAddress, clPort);
+                    console.log(data.entity);
                     console.log(result);
                     socket.write(JSON.stringify(result));
                     break;
@@ -63,6 +60,6 @@ server.on("connection", socket => {
         }
     });
 });
-server.listen(20202, () => {
+server.listen(20201, () => {
     console.log("Server working on address %j", server.address());
 });

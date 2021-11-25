@@ -10,7 +10,7 @@ var rl = readline.createInterface({
     output: process.stdout,
 });
 
-var client = net.connect({ port: 20202 }, function () {
+var client = net.connect({ port: 20201 }, function () {
     console.log("connected to server!");
 });
 
@@ -60,10 +60,6 @@ client.on("data", async function (data) {
                 break;
         }
         client.write(JSON.stringify(request));
-        // rl.on("line", () => {
-        //     rl.close();
-        // });
-        //client.end();
     } else {
         client.end();
     }

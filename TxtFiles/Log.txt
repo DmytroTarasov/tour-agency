@@ -1,41 +1,9 @@
-2021-4-2T22:4, Get from TxtFiles/Tour.txt, id=2, client ::ffff:127.0.0.1 57051
-2021-4-2T23:23, getAll from undefined, client ::ffff:127.0.0.1 60136
-2021-4-2T23:24, getAll from undefined, client ::ffff:127.0.0.1 60196
-2021-4-2T23:28, getAll from undefined, client ::ffff:127.0.0.1 60325
-2021-4-2T23:30, getAll from undefined, client ::ffff:127.0.0.1 60408
-2021-4-2T23:32, getAll from undefined, client ::ffff:127.0.0.1 60490
-2021-4-2T23:33, getAll from undefined, client ::ffff:127.0.0.1 60526
-2021-4-2T23:34, getAll from undefined, client ::ffff:127.0.0.1 60559
-2021-4-2T23:35, getAll from undefined, client ::ffff:127.0.0.1 60598
-2021-4-2T23:47, getAll from undefined, client ::ffff:127.0.0.1 61100
-2021-4-2T23:53, getAll from undefined, client ::ffff:127.0.0.1 61401
-2021-4-3T8:54, getAll from tours, client ::ffff:127.0.0.1 55044
-2021-4-3T8:58, getAll from tours, client ::ffff:127.0.0.1 55249
-2021-4-3T8:59, getAll from tours, client ::ffff:127.0.0.1 55269
-2021-4-3T9:0, getAll from tours, client ::ffff:127.0.0.1 55301
-2021-4-3T12:53, getAll from tours, client ::ffff:127.0.0.1 63842
-2021-4-3T12:54, getAll from tours, client ::ffff:127.0.0.1 63873
-2021-4-3T12:54, getAll from tours, client ::ffff:127.0.0.1 63888
-2021-4-3T13:15, getAll from tours, client ::ffff:127.0.0.1 64648
-2021-4-3T13:18, getAll from tours, client ::ffff:127.0.0.1 64770
-2021-4-3T13:19, getAll from tours, client ::ffff:127.0.0.1 64816
-2021-4-3T13:20, getAll from tours, client ::ffff:127.0.0.1 64835
-2021-4-3T13:20, Get from 2, id=true, client 64835 
-2021-4-3T13:21, Get from 2, id=true, client 64885 
-2021-4-3T13:26, Get from 2, id=true, client 65047 
-2021-4-3T13:28, Get from 2, id=true, client 65123 
-2021-4-3T13:29, Get from 2, id=true, client 65173 
-2021-4-3T13:31, Get from tours, id=2, client ::ffff:127.0.0.1 65250
-2021-4-3T13:31, getAll from tourismTypes, client ::ffff:127.0.0.1 65250
-2021-4-3T13:31, Search in tours, prop=price, propertyValue=30000, client ::ffff:127.0.0.1 65250
-2021-4-3T13:32, Insert into Object, id=-1, client ::ffff:127.0.0.1 65250
-2021-4-3T13:32, Delete from tourismTypes, id=2, client ::ffff:127.0.0.1 65310
-2021-4-3T13:34, Delete from tourismTypes, id=1, client ::ffff:127.0.0.1 65361
-2021-4-3T13:35, Delete from tourismTypes, id=1, client ::ffff:127.0.0.1 65402
-2021-4-3T13:35, Delete from tourismTypes, id=1, client ::ffff:127.0.0.1 65426
-2021-4-3T13:36, Delete from tours, id=3, client ::ffff:127.0.0.1 65466
-2021-4-3T13:37, Delete from tours, id=2, client ::ffff:127.0.0.1 65504
-2021-4-3T13:41, Insert into Object, id=-1, client ::ffff:127.0.0.1 49235
-2021-4-3T13:42, Insert into Object, id=-1, client ::ffff:127.0.0.1 49307
-2021-4-3T13:45, Insert into tourismTypes, id=-1, client ::ffff:127.0.0.1 49383
-2021-4-3T14:6, Get from tourismTypes, id=1, client ::ffff:127.0.0.1 50395
+2021-4-10T12:40, getAll from tours, client ::ffff:127.0.0.1 58797
+2021-4-10T12:43, Get from clients, id=2, client ::ffff:127.0.0.1 58797
+2021-4-10T12:45, Search in tours, prop=price, propertyValue=30000, client ::ffff:127.0.0.1 58797
+2021-4-10T12:46, Search in tours, prop=rating, propertyValue=4.8, client ::ffff:127.0.0.1 58797
+2021-4-10T12:47, Search in tours, prop=rating, propertyValue=4.9, client ::ffff:127.0.0.1 58797
+2021-4-10T12:48, getAll from tourismTypes, client ::ffff:127.0.0.1 58797
+2021-4-10T12:49, Insert into tourismTypes, id=-1, client ::ffff:127.0.0.1 58797
+2021-4-10T12:50, getAll from tourismTypes, client ::ffff:127.0.0.1 58797
+2021-4-17T23:59, getAll from clients, client ::ffff:127.0.0.1 60669
